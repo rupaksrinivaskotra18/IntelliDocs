@@ -23,3 +23,13 @@ db.properties
 # IDEs
 .vscode/
 .idea/
+
+# Ignore all files in documents/ except the folder structure itself
+documents/*
+!documents/.gitkeep
+
+# Ignore report drafts, presentations, and PDFs in root
+*.pdf
+*.docx
+*.pptx
+

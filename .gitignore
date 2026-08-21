@@ -1,0 +1,25 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Vectorstore database files (regenerated via ingest.py)
+vectorstore/
+
+# Environments and credentials
+.env
+.env.local
+.env.*
+venv/
+.venv/
+env/
+ENV/
+
+# OS-specific files
+Thumbs.db
+db.properties
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
